@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repositories version="1.0">
 <repo priority="50" status="unofficial">
-	<name>amedeos-overlay</name>
+	<name>amedeos</name>
 	<description>amedeos personal overlay</description>
 	<homepage>https://amedeos.github.io</homepage>
 	<owner>
