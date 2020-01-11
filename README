@@ -1,0 +1,1 @@
+layman -o https://raw.githubusercontent.com/amedeos/amedeos-overlay/master/overlay.xml -f -a amedeos
