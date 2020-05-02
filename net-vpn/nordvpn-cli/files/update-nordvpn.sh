@@ -20,3 +20,5 @@ fi
 
 $NORDVPN $DEFAULT_OPT "$COUNTRY"
 
+$NORDVPN restart
+
