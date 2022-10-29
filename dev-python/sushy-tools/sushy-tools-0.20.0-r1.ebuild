@@ -45,7 +45,7 @@ RDEPEND="
 	dev-python/certifi
 	dev-python/bcrypt
 	dev-python/async-timeout
-	dev-python/zeroconf
+	dev-python/python-zeroconf
 	dev-python/werkzeug
 	dev-python/stevedore
 	dev-python/requests
