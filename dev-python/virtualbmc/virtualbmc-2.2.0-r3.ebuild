@@ -4,7 +4,7 @@
 EAPI=7
 
 DISTUTILS_USE_SETUPTOOLS=rdepend
-PYTHON_COMPAT=( python3_{6,7} pypy3 )
+PYTHON_COMPAT=( python3_{9,10} pypy3 )
 
 inherit distutils-r1 systemd
 
@@ -21,6 +21,8 @@ RESTRICT="!test? ( test )"
 BDEPEND=""
 RDEPEND="
 	dev-python/pyghmi
+	dev-python/cliff
+	dev-python/pyzmq
 	acct-user/vbmc
 "
 
