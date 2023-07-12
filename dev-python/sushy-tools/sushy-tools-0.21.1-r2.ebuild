@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_SETUPTOOLS=rdepend
-PYTHON_COMPAT=( python3_{9,10,11} pypy3 )
+PYTHON_COMPAT=( python3_{10,11,12} pypy3 )
 
 inherit distutils-r1 systemd
 
@@ -41,7 +41,7 @@ RDEPEND="
 	dev-python/idna
 	dev-python/fasteners
 	dev-python/click
-	dev-python/charset_normalizer
+	dev-python/charset-normalizer
 	dev-python/certifi
 	dev-python/bcrypt
 	dev-python/async-timeout
@@ -55,7 +55,7 @@ RDEPEND="
 	dev-python/oslo-concurrency
 	dev-python/oslo-i18n
 	dev-python/jinja
-	dev-python/importlib_metadata
+	dev-python/importlib-metadata
 	dev-python/debtcollector
 	dev-python/ironic-lib
 "
