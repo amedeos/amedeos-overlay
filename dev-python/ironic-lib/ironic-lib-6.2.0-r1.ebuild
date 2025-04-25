@@ -3,14 +3,14 @@
 
 EAPI=8
 
-DISTUTILS_USE_SETUPTOOLS=rdepend
-PYTHON_COMPAT=( python3_{9,10,11} pypy3 )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{10,11,12,13} pypy3 )
 
 inherit distutils-r1 systemd
 
 DESCRIPTION="Ironic common library"
 HOMEPAGE="https://docs.openstack.org/ironic-lib/"
-SRC_URI="https://files.pythonhosted.org/packages/de/80/7cd67824e5549772467915d185e5dbdebbd5395d0e3fb9edcfedc2967e56/${PN}-${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/af/f405b3d9a9df03351537c1823ff72e6ab0b384c538c2f7c8b817c40a01dd/${PN}-${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
